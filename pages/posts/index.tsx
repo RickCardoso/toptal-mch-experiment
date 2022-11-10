@@ -3,11 +3,12 @@ import Link from "next/link"
 import { useForm } from "react-hook-form"
 import useSWR from "swr"
 import { fetcher } from "../../utils/http"
+import {Post} from "../../types/post";
 
 const PostsPage = () => {
   const { data, error, mutate } = useSWR('/api/posts', fetcher)
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
-  const onSubmit = (data) => axios.post('/api/posts', data).then(() => {
+  const onSubmit = (data: Partial<Post>) => axios.post('/api/posts', data).then(() => {
     void mutate();
     reset();
   });
@@ -35,7 +36,7 @@ const PostsPage = () => {
 
       <h2 className="text-lg font-semibold mb-4">Posts</h2>
       <ul className="flex flex-col gap-4">
-        {data.map((post) => (
+        {data.map((post: Post) => (
           <Link href={`/posts/${post.id}`} key={post.id}>
             <li className="rounded-xl bg-zinc-300 p-6 text-black">
               <h3 className="text-lg text-semibold mb-2">{post.title}</h3>

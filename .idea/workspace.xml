@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afd7644a-8a63-408b-8007-12386799aded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/posts/[id].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/posts/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/posts/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/posts/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scratch.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toptal-mch-experiment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/http.ts" afterDir="false" />
+    <list default="true" id="afd7644a-8a63-408b-8007-12386799aded" name="Changes" comment="fix: delete scratch file">
+      <change afterPath="$PROJECT_DIR$/types/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/posts/[id].ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/posts/[id].ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/posts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/posts/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/posts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +93,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668043186989</updated>
-      <workItem from="1668043191932" duration="6502000" />
+      <workItem from="1668043191932" duration="7419000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: :tada: initial commit">
+      <created>1668055266071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668055266071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: delete scratch file">
+      <created>1668055351264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668055351264</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +125,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: :tada: initial commit" />
+    <MESSAGE value="fix: delete scratch file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: delete scratch file" />
   </component>
 </project>
