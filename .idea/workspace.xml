@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afd7644a-8a63-408b-8007-12386799aded" name="Changes" comment="fix: delete scratch file">
-      <change afterPath="$PROJECT_DIR$/types/post.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/user.ts" afterDir="false" />
+    <list default="true" id="afd7644a-8a63-408b-8007-12386799aded" name="Changes" comment="fix: typescript">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/posts/[id].ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/posts/[id].ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/posts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/posts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/posts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/posts/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,27 +28,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/rickc/GitHub/RickCardoso/toptal-mch-experiment/pages/api/posts",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\rickc\\GitHub\\RickCardoso\\toptal-mch-experiment\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rickc/GitHub/RickCardoso/toptal-mch-experiment/pages/api/posts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\rickc\\GitHub\\RickCardoso\\toptal-mch-experiment\\node_modules\\typescript\\lib&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JavaScript"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JavaScript&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rickc\GitHub\RickCardoso\toptal-mch-experiment\pages\api\posts" />
@@ -93,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668043186989</updated>
-      <workItem from="1668043191932" duration="7419000" />
+      <workItem from="1668043191932" duration="7721000" />
+      <workItem from="1668076821831" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="feat: :tada: initial commit">
       <created>1668055266071</created>
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668055351264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: typescript">
+      <created>1668056176313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668056176313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: :tada: initial commit" />
     <MESSAGE value="fix: delete scratch file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: delete scratch file" />
+    <MESSAGE value="fix: typescript" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: typescript" />
   </component>
 </project>
